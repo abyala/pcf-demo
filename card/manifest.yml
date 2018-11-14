@@ -6,3 +6,4 @@ applications:
   random-route: true
   services:
   - my-service-registry
+  - card-db
