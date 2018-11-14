@@ -26,3 +26,7 @@ hs_err_pid*
 *.iml
 .gradle/*
 .idea/*
+**/.gradle/*
+**/build/*
+callout.sh
+**/out/*
