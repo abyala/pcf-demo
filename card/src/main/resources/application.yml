@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: card-service
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    generate-ddl: true
+
+server:
+  port: 8081

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: partner-api
+server:
+  port: 8080
