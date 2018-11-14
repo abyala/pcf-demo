@@ -9,7 +9,7 @@ import javax.persistence.Entity
 import javax.persistence.Id
 
 @Repository
-interface CardRepository : CrudRepository<Card, Int> {
+interface CardRepository : CrudRepository<Card, String> {
     fun findByPan(pan: String): Card?
 }
 
