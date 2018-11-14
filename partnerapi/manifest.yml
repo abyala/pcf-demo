@@ -1,0 +1,8 @@
+---
+applications:
+- name: partner-api
+  path: build/libs/partnerapi-1.0.jar
+  instances: 1
+  random-route: true
+  services:
+  - my-service-registry

@@ -28,7 +28,7 @@ class CardLookupService(private val restTemplate: RestTemplate) {
             String(Base64.getEncoder().encode(toByteArray(Charsets.US_ASCII)))
 
     companion object {
-        private const val CARD_LOOKUP_URL = "http://localhost:8081/cards/{pan}"
+        private const val CARD_LOOKUP_URL = "http://card-service/cards/{pan}"
     }
 }
 

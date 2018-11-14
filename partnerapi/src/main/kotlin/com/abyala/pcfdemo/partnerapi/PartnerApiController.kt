@@ -37,4 +37,4 @@ class CardOrderDto(val pan: String, expirationLocalDate: LocalDate) {
     }
 }
 
-class ErrorResponse(message: String)
+class ErrorResponse(val message: String)

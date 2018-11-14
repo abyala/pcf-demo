@@ -1,0 +1,8 @@
+---
+applications:
+- name: card-service
+  path: build/libs/card-1.0.jar
+  instances: 1
+  random-route: true
+  services:
+  - my-service-registry

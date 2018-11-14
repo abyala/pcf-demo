@@ -46,7 +46,7 @@ ext {
 
 
 dependencies {
-//    implementation('io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry')
+    implementation('io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry')
     implementation('org.springframework.boot:spring-boot-starter-security')
     implementation('org.springframework.boot:spring-boot-starter-web')
     implementation('com.fasterxml.jackson.module:jackson-module-kotlin')
